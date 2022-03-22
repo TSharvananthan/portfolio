@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div class="grid place-items-center h-screen">
+      <div className="grid place-items-center h-screen">
         <div>
           <div className="w-full text-center">
             <Tilt options={{ max: 30 }}>
@@ -26,15 +26,15 @@ export default function Home() {
           <p className="text-8xl text-center font-extrabold my-6 text-white">Thanussian Sharvananthan</p>
           <p className="text-3xl text-center font-extrabold my-4 text-white">I Like To Build Stuff :)</p>
 
-          <div class="border-t border-2 border-white my-8"></div>
+          <div className="border-t border-2 border-white my-8"></div>
 
           <div className="flex justify-around">
             <a href=""> <BookIcon /> </a>
-            <a href="https://twitter.com/Than_Sharva" target="_blank"> <TwitterIcon /> </a>
-            <a href="https://www.linkedin.com/in/tsharva" target="_blank"> <LinkedinIcon /> </a>
-            <a href="https://github.com/TSharvananthan" target="_blank"> <GithubIcon /> </a>
-            <a href="mailto:thanussian@gmail.com" target="_blank"> <EmailIcon /> </a>
-            <a href="" target="_blank"> <ResumeIcon /> </a>
+            <a href="https://twitter.com/Than_Sharva" target="_blank" rel="noreferrer"> <TwitterIcon /> </a>
+            <a href="https://www.linkedin.com/in/tsharva" target="_blank" rel="noreferrer"> <LinkedinIcon /> </a>
+            <a href="https://github.com/TSharvananthan" target="_blank" rel="noreferrer"> <GithubIcon /> </a>
+            <a href="mailto:thanussian@gmail.com" target="_blank" rel="noreferrer"> <EmailIcon /> </a>
+            <a href="" target="_blank" rel="noreferrer"> <ResumeIcon /> </a>
           </div>
         </div>
       </div>
