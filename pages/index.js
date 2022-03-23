@@ -29,7 +29,7 @@ export default function Home() {
           <div className="border-t border-2 border-white my-8"></div>
 
           <div className="flex justify-around">
-            <a href=""> <BookIcon /> </a>
+            <a href="https://adcap.vercel.app" target="_blank" rel="noreferrer"> <BookIcon /> </a>
             <a href="https://twitter.com/Than_Sharva" target="_blank" rel="noreferrer"> <TwitterIcon /> </a>
             <a href="https://www.linkedin.com/in/tsharva" target="_blank" rel="noreferrer"> <LinkedinIcon /> </a>
             <a href="https://github.com/TSharvananthan" target="_blank" rel="noreferrer"> <GithubIcon /> </a>
